@@ -1,10 +1,15 @@
-# Getting Started with Create React App
+# TraCon
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+As we dont know that when the next lockdown can occur, so we tend to prepare a solution for fitness and gym enthusiats which allows the gym trainers and the customers to connect well even in the online mode. 
+<p>Our solution has two parts: trainer side and customer side.</p>
+<p>The trainer will take the information from the user through a call or whatsapp and will accordingly prepare the tracks for the user by taking into consideration the data provided. The trainer can also check the report of the users and the and different types of plans that he can give to different users.</p>
+<p>For the user side, the user will be able to access his plan on the basis of the plan code given by a particlar trainer.</p>
 
-## Available Scripts
+<p>So this application can by used by any gym and help the trainers to connect with the customers who have joined their gym</p>
 
-In the project directory, you can run:
+## Future addons
+
+We tend to make a pwa which can be even deployed on the 
 
 ### `npm start`
 
