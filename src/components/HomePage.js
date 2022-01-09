@@ -7,18 +7,14 @@ function HomePage() {
   return (
     <div className="homepage">
       <div className="buttons">
-        <a href="/users">
-          <Link to="/users">
-            <button className="users" on>
-              USERS
-            </button>
-          </Link>
-        </a>
-        <a href="/planlvl">
-          <Link to="/planlvl">
-            <button className="planlist">PLANLIST</button>
-          </Link>
-        </a>
+        <Link to="/users">
+          <button className="users" on>
+            USERS
+          </button>
+        </Link>
+        <Link to="/planlist">
+          <button className="planlist">PLANLIST</button>
+        </Link>
       </div>
       <div className="home-img">
         <img src={bg}></img>
