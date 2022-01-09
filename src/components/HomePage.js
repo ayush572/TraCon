@@ -14,7 +14,11 @@ function HomePage() {
             </button>
           </Link>
         </a>
-        <button className="planlist">PLANLIST</button>
+        <a href="/planlist">
+          <Link to="planlist">
+            <button className="planlist">PLANLIST</button>
+          </Link>
+        </a>
       </div>
       <div className="home-img">
         <img src={bg}></img>
