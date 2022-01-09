@@ -9,7 +9,7 @@ As we dont know that when the next lockdown can occur, so we tend to prepare a s
 
 ## Future addons
 
-We tend to make a pwa which can be even deployed on the 
+This web app can be made into a downloadable android app which can help 
 
 ### `npm start`
 
