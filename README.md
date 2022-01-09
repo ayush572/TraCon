@@ -13,8 +13,8 @@ This web app can be made into a downloadable android app to make our application
 
 ## Tech stacks used
 <ul>
-<li> Flask</li>[https://flask.palletsprojects.com/en/2.0.x/](https://flask.palletsprojects.com/en/2.0.x/)
-<li> Mediapipe</li>(https://google.github.io/mediapipe/)
+<li> Flask</li>[Flask](https://flask.palletsprojects.com/en/2.0.x/)
+<li> Mediapipe</li>
 <li> Tensorflow</li>(https://www.tensorflow.org/)
 <li> Firebase</li>(https://firebase.google.com/?gclid=Cj0KCQiAieWOBhCYARIsANcOw0yqt6rudL-TCrRKiKIHYntdm_nT0DjIbO1gVURRPIaq8936LKGBB4IaAh1AEALw_wcB&gclsrc=aw.ds)
 <li> Reactjs</li>(https://reactjs.org/)
