@@ -12,11 +12,9 @@ As we dont know that when the next lockdown can occur, so we tend to prepare a s
 This web app can be made into a downloadable android app to make our application reach to a greater number of users and gyms available worldwide.
 
 ## Tech stacks used
-<ul>
-<li> Flask</li>[Flask](https://flask.palletsprojects.com/en/2.0.x/)
-<li> Mediapipe</li>
-<li> Tensorflow</li>(https://www.tensorflow.org/)
-<li> Firebase</li>(https://firebase.google.com/?gclid=Cj0KCQiAieWOBhCYARIsANcOw0yqt6rudL-TCrRKiKIHYntdm_nT0DjIbO1gVURRPIaq8936LKGBB4IaAh1AEALw_wcB&gclsrc=aw.ds)
-<li> Reactjs</li>(https://reactjs.org/)
-<li> Nodejs</li>(https://nodejs.org/en/)
-</ul>
+* [Flask](https://flask.palletsprojects.com/en/2.0.x/)
+* [Mediapipe](https://google.github.io/mediapipe/)
+* [Tensorflow](https://www.tensorflow.org/)
+* [Firebase](https://firebase.google.com/?gclid=Cj0KCQiAieWOBhCYARIsANcOw0yqt6rudL-TCrRKiKIHYntdm_nT0DjIbO1gVURRPIaq8936LKGBB4IaAh1AEALw_wcB&gclsrc=aw.ds)
+* [Reactjs](https://reactjs.org/)
+* [Nodejs](https://nodejs.org/en/)
