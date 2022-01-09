@@ -1,0 +1,68 @@
+{% extends 'base.html' %}
+
+{% block title %} Routes {% endblock %}
+
+{% block body %}
+    <div class="idbox">
+            <p>Enter code: </p>
+            <input type="text" name="code" id="code">
+            <a href="/exercises">Go</a>
+    </div>
+    <div class="home-texts">
+        <h2>TraCon</h2>
+        <p>Trainee Interface</p>
+    </div>
+    
+{% endblock %}
+
+{% block styling %}
+<style>
+    .home-texts {
+        position: absolute;
+        right: 0;
+        margin-right: 3rem;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+    }
+    .home-texts h2 {
+        font-family: sans-serif;
+        font-size: 8rem;
+        font-weight: 600;
+        margin-bottom: 1rem;
+    }
+    .home-texts p {
+        font-size: 2rem;
+    }
+    .idbox {
+        position: absolute;
+        left: 0;
+        margin: 8rem;
+        margin-left: 5rem;
+        display: flex;
+        flex-direction: column;
+        /* border: 2px solid gray; */
+        border-radius: 1rem;
+        padding: 1rem 6rem 1rem 1rem;
+        box-shadow: 2px 2px 10px gray;
+        font-size: 1.2em;
+    }
+    .idbox input {
+        padding: 5px;
+        width: 140%;
+        margin-bottom: 1rem;
+    }
+    .idbox a {
+        width: 140%;
+        display: flex;
+        justify-content: center;
+        text-decoration: none;
+        color: white;
+        background-color: green;
+        margin: 0.5rem 0;
+        padding: 0.5rem;
+        border: 1px solid green;
+        border-radius: 10px;
+    }
+</style>
+{% endblock %}

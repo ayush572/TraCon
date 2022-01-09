@@ -1,0 +1,85 @@
+{% extends 'base.html' %}
+
+{% block titlie %} Exercises {% endblock %}
+
+{% block body %}
+<div class="container">
+    <div class="ex">
+        <div class="name">
+            5 Dumbel
+        </div>
+        <a href="/dumbel?count=5">Start</a>
+    </div>
+    <div class="ex">
+        <div class="name">
+            5 Squats
+        </div>
+        <a href="/squats?count=5">Start</a>
+    </div>
+    <div class="ex">
+        <div class="name">
+            5 Leg Raise
+        </div>
+        <a href="/legRaise?count=5">Start</a>
+    </div>
+</div>
+<div class="sbmt">
+    <button onclick=alertUser()>Submit</button>
+</div>
+<script>
+    function alertUser() {
+        alert("Your report has been submitted successfully.")
+    }
+</script>
+{% endblock %}
+
+{% block styling %}
+<style>
+    .container {
+        margin: 5rem;
+        display: flex;
+        flex-direction: column;
+    }
+    .ex {
+        background-color: #424242;
+        color: white;
+        display: flex;
+        border-radius: 1rem;
+        overflow: hidden;
+        font-family: sans-serif;
+        margin-bottom: 2rem;
+    }
+    .ex .name {
+        flex: 4;
+        font-size: 2rem;
+        font-weight: 400;
+        padding: 2rem 1rem;
+    }
+    .ex a {
+        padding: 1rem 2rem;
+        background-color: #38c335;
+        border: none;
+        color: white;
+        font-size: 1.2rem;
+        text-decoration: none;
+        display: flex;
+        align-items: center;
+    }
+    .sbmt {
+        z-index: 10;
+        width: 99vw;
+        padding: 1rem;
+        display: flex;
+        justify-content: center;
+    }
+    .sbmt button {
+        padding: 0.5rem;
+        background-color: #38c335;
+        border:none;
+        border-radius: 10px;
+        font-size: 2rem;
+        color: white;
+        z-index: 10;
+    }
+</style>
+{% endblock %}

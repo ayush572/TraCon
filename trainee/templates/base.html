@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %} Trainee {% endblock %}</title>
+</head>
+<body style="overflow:hidden;">
+    {% block body %} Body {% endblock %}
+    <div class="circle"></div>
+    <div class="circle circle-2"></div>
+    <style>
+        .circle {
+            width: 120vw;
+            border-radius: 50%;
+            background: #d4d4d4;
+            position: absolute;
+            bottom: 0;
+            height: 30rem;
+            transform: translateY(51%) translateX(-2%);
+            }
+
+            .circle-2 {
+            background: #b4b4b4;
+            transform: translateY(65%) translateX(20%);
+            z-index: 2;
+            }
+            </style>
+            {% block styling %} {% endblock %}
+</body>
+</html>
