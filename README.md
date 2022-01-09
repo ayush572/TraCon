@@ -11,7 +11,7 @@ As we dont know that when the next lockdown can occur, so we tend to prepare a s
 
 This web app can be made into a downloadable android app to make our application reach to a greater number of users and gyms available worldwide.
 
-### tech stacks used
+## Tech stacks used
 <ul>
 <li> flask</li>
 <li> Mediapipe</li>
