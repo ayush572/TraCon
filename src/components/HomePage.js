@@ -14,8 +14,8 @@ function HomePage() {
             </button>
           </Link>
         </a>
-        <a href="/planlist">
-          <Link to="planlist">
+        <a href="/planlvl">
+          <Link to="/planlvl">
             <button className="planlist">PLANLIST</button>
           </Link>
         </a>
